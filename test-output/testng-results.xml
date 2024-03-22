@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T17:37:57 EET" name="Suite" finished-at="2024-03-20T17:38:50 EET" duration-ms="53425">
+    <groups>
+    </groups>
+    <test started-at="2024-03-20T17:37:57 EET" name="Testonchrome" finished-at="2024-03-20T17:38:50 EET" duration-ms="53425">
+      <class name="testCases.ExtentReportsTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testCases.ExtentReportsTest@2a3b5b47]" started-at="2024-03-20T17:37:57 EET" name="beforeSuite" finished-at="2024-03-20T17:37:57 EET" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testCases.ExtentReportsTest@2a3b5b47]" started-at="2024-03-20T17:38:50 EET" name="afterSuite" finished-at="2024-03-20T17:38:51 EET" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.ExtentReportsTest -->
+      <class name="testCases.CoursesPageTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:37:57 EET" name="openBrowser" finished-at="2024-03-20T17:38:03 EET" duration-ms="5644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.CoursesPageTest.addCourseToSystem() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="identifypages()[pri:0, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:38:03 EET" name="identifypages" finished-at="2024-03-20T17:38:03 EET" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- identifypages -->
+        <test-method signature="addCourseToSystem()[pri:1, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:38:03 EET" name="addCourseToSystem" finished-at="2024-03-20T17:38:24 EET" duration-ms="21772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCourseToSystem -->
+        <test-method is-config="true" signature="closeBrowser(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:38:24 EET" name="closeBrowser" finished-at="2024-03-20T17:38:28 EET" duration-ms="3450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.CoursesPageTest.addCourseToSystem() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addCourseToSystem status=SUCCESS method=CoursesPageTest.addCourseToSystem()[pri:1, instance:testCases.CoursesPageTest@235834f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String,java.lang.reflect.Method)[pri:0, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:38:28 EET" name="openBrowser" finished-at="2024-03-20T17:38:33 EET" duration-ms="4653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testCases.CoursesPageTest.searchAbboutAddedUser() throws java.io.IOException,java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="identifypages()[pri:0, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:38:33 EET" name="identifypages" finished-at="2024-03-20T17:38:33 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- identifypages -->
+        <test-method signature="searchAbboutAddedUser()[pri:2, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:38:33 EET" name="searchAbboutAddedUser" finished-at="2024-03-20T17:38:47 EET" duration-ms="14522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAbboutAddedUser -->
+        <test-method is-config="true" signature="closeBrowser(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testCases.CoursesPageTest@235834f2]" started-at="2024-03-20T17:38:47 EET" name="closeBrowser" finished-at="2024-03-20T17:38:50 EET" duration-ms="3312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.CoursesPageTest.searchAbboutAddedUser() throws java.io.IOException,java.lang.InterruptedException,java.awt.AWTException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=searchAbboutAddedUser status=SUCCESS method=CoursesPageTest.searchAbboutAddedUser()[pri:2, instance:testCases.CoursesPageTest@235834f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.CoursesPageTest -->
+    </test> <!-- Testonchrome -->
+  </suite> <!-- Suite -->
+</testng-results>
